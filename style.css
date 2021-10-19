@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-size: 30px;
+}
+nav{
+	position: center;
+	background-color: black;
+	background-color: rgba(255,188,234,0.5);
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	background-image: url(imagem/sobrancelha.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 15%;
+
+	}	
+.background_page{
+	background-color: rgba(247,227,241,0.5);
+
+	background-image: url(https://www.depylaction.com.br/blog/wp-content/uploads/2020/11/formatos_de_sobrancelhas-1170x550.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+.links_nav{
+	font-size: 25px;
+	margin: 5px;
+	padding: 0 10px;
+	color: black;
+	text-decoration: none;
+	position: relative;
+	overflow:hidden;
+	float: right;
+	background-color: rgba(206,206,206,0.3);
+	border-radius: 10%;
+			
+	}
+.Contatos{
+	text-align: center;
+	background-color: rgba(255,188,234,0.8);
+
+}
+#instragram_link{
+
+	
+}
+#text_homepage{
+	font-size: 40px;
+	padding: 40px;
+	text-shadow: white;
+}
