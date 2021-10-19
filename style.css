@@ -1,16 +1,17 @@
 body{
 	margin: 0;
-	padding: 0;
+	padding: -15;
 }
 h2{
 	font-size: 30px;
 }
 nav{
-	position: center;
-	background-color: black;
-	background-color: rgba(255,188,234,0.5);
+	position: fixed;
+	overflow: visible;
+	background-size: 300px 500px;
+	background-color: rgba(255,188,234,0.8);
 	margin: 0px;
-	padding: 10px;
+	padding: 15px;
 	text-align: center;
 	background-image: url(imagem/sobrancelha.png);
 	background-position: left;
@@ -20,12 +21,25 @@ nav{
 	}	
 .background_page{
 	background-color: rgba(247,227,241,0.5);
-
 	background-image: url(https://www.depylaction.com.br/blog/wp-content/uploads/2020/11/formatos_de_sobrancelhas-1170x550.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+.background_page2{
 
+	background-image: url(imagem/modelo1.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: left;
+	text-align: right;
+	text-shadow: 1px 1px pink;
+	font-size: 1cm;
+	padding: 1cm;
+}
+
+#titulo_sobrancelha{
+	padding-right: 4cm;
+}
 
 .links_nav{
 	font-size: 25px;
@@ -35,22 +49,50 @@ nav{
 	text-decoration: none;
 	position: relative;
 	overflow:hidden;
-	float: right;
-	background-color: rgba(206,206,206,0.3);
-	border-radius: 10%;
-			
+	object-position: right;
+		
 	}
 .Contatos{
+
 	text-align: center;
 	background-color: rgba(255,188,234,0.8);
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	text-decoration-style: inherit;
 
 }
 #instragram_link{
-
+	background: url(imagens/instagram2.png);
+	width: 30px;
+	height: 30px;
+	backface-visibility: initial;
 	
 }
 #text_homepage{
 	font-size: 40px;
 	padding: 40px;
 	text-shadow: white;
+}
+#sub_text1{
+
+	text-align: center;
+	font-size: 30px;
+
+}
+.links_nav:hover{
+	background-color: rgba(206,206,255,0.4);
+	border-radius: 10%;
+}
+#home{
+	text-decoration: none;
+}
+#separador{
+	color: pink;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, transparent, #BBF, transparent); 
+
 }
